@@ -1,19 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Rubik, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #F4F9F0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #B3D89C;
     padding: 20px;
     text-align: center;
 }
 
 main {
     padding: 20px;
+    display: flex;
+}
+
+section {
+    margin: 20px;
+}
+
+h1 {
+    font-family: Licorice, sans-serif;
+    font-size: 8em;
+}
+
+#reviews-section {
+    flex-grow: 2;
 }
 
 #review-form-section,
@@ -31,16 +44,18 @@ main {
     margin-top: 10px;
 }
 
-#review-form button {
-    background-color: #0084ff;
+button {
+    background-color: #4E4187;
+    font-family: Rubik, sans-serif;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
 }
 
-#review-form button:hover {
-    background-color: #0056b3;
+button:hover {
+    background-color: #C1BADE;
+    color: black;
 }
 
 #reviews-list {
@@ -50,7 +65,7 @@ main {
 .review-item {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
 }
 
