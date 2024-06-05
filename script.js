@@ -10,6 +10,7 @@ function loadReviews() {
 				.then(response => response.json())
 				.then(reviews => {
 						const reviewsList = document.getElementById('reviews-list');
+						console.log("reviewList", reviewsList);
 						reviews.forEach(review => {
 								const reviewElement = createReviewElement(review);
 								reviewsList.appendChild(reviewElement);
